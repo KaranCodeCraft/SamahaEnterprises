@@ -76,9 +76,9 @@ export default function Home() {
           </Link>
         </p>
       </div>
-      <div className="d-flex">
-        <div class="card" style={{ width: "18 rem" }}>
-          <img class="card-img-top" src="..." alt="Card image cap" />
+      <div className="d-flex my-4 mx-4">
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
           <div class="card-body">
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -86,8 +86,46 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div class="card" style={{ width: "18 rem" }}>
-          <img class="card-img-top" src="..." alt="Card image cap" />
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="d-flex my-4 mx-4">
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card mx-2" style={{ width: "18 rem" }}>
+          <img class="card-img-top" src="..." alt="Card cap" />
           <div class="card-body">
             <p class="card-text">
               Some quick example text to build on the card title and make up the
