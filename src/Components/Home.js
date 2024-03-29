@@ -57,9 +57,12 @@ export default function Home() {
           <span className="sr-only">Next</span>
         </a>
       </div>
-      <div className="jumbotron border border-primary">
+      <div className="jumbotron m-2">
+        <div className="mx-4">
+        <div className="mx-4">
+
         <h1 className="display-4">
-          Welcome to <b>Savi Vision</b>
+          Welcome to <b>advertise24</b>
         </h1>
         <p className="lead">
           We are your trusted partner for all civil construction and
@@ -75,15 +78,17 @@ export default function Home() {
             About Us
           </Link>
         </p>
+        </div>
+        </div>
       </div>
 {/* service section starts */}
 
-      <div className="container border border-dark my-4">
-        <h2 className="text-center">Our Services</h2>
-        <p className="text-center">Building dreams, one brick at a time.</p>
+      <div className="container my-4">
+        <h1 className="text-center display-4"><b>Our Services</b></h1>
+        <p className="text-center display-4">Building dreams, one brick at a time.</p>
         <div className="my-4">
           <div className="d-flex justify-content-center">
-            <div className="card mx-4" style={{ width: "18rem" }}>
+            <div className="card mx-4" style={{ width: "20rem" }}>
               <img className="card-img-top" src={img1} alt="Card cap" />
               <div className="card-body">
                 <h5 className="card-title text-center">
@@ -91,7 +96,7 @@ export default function Home() {
                 </h5>
               </div>
             </div>
-            <div className="card mx-4" style={{ width: "18rem" }}>
+            <div className="card mx-4" style={{ width: "20rem" }}>
               <img className="card-img-top" src={img2} alt="Card cap" />
               <div className="card-body">
                 <h5 className="card-title text-center">
@@ -99,7 +104,7 @@ export default function Home() {
                 </h5>
               </div>
             </div>
-            <div className="card mx-4" style={{ width: "18rem" }}>
+            <div className="card mx-4" style={{ width: "20rem" }}>
               <img className="card-img-top" src={img3} alt="Card cap" />
               <div className="card-body">
                 <h5 className="card-title text-center">
@@ -114,63 +119,99 @@ export default function Home() {
         <span className="bg-light rounded px-3 py-1 text-sm border border-dark">
           Testimonials
         </span>
-        <h1 className="my-2">Customers Love Our Platform</h1>
-        <p>
+        <h1 className="m-4">Customers Love Our Platform</h1>
+        <p className="m-4">
           Don't take our word for it. Here's what our customers have to say
           about their experience with our platform.
         </p>
 
-        {/* testimontial content starts */}
-        <div className="d-flex border border-dark justify-content-center">
-          <div className="card m-4" style={{ width: "18rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="card-link">
-                Card link
-              </a>
-              <a href="/" className="card-link">
-                Another link
-              </a>
-            </div>
-          </div>
-          <div className="card m-4" style={{ width: "18rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="card-link">
-                Card link
-              </a>
-              <a href="/" className="card-link">
-                Another link
-              </a>
-            </div>
-          </div>
-          <div className="card m-4" style={{ width: "18rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="card-link">
-                Card link
-              </a>
-              <a href="/" className="card-link">
-                Another link
-              </a>
-            </div>
-          </div>
-        </div>
+  <div className="row text-center m-4">
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" alt="customer"/>
+      </div>
+      <h5 className="mb-3">Maria Smantha</h5>
+      <h6 className="text-primary mb-3">Web Developer</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Exceptional service, prompt response, high-quality product. Highly recommend.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" alt="customer"/>
+      </div>
+      <h5 className="mb-3">Lisa Cudrow</h5>
+      <h6 className="text-primary mb-3">Graphic Designer</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Average experience, minor issues with product and service responsiveness.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" alt="customer"/>
+      </div>
+      <h5 className="mb-3">John Smith</h5>
+      <h6 className="text-primary mb-3">Marketing Specialist</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Exceptional service, prompt response, high-quality product. Highly recommend.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+
       </div>
     </div>
   );

@@ -6,3 +6,16 @@
 .content {
     margin-top: 66px;
 }
+
+.fot{
+    padding: 0.5rem;
+    background-color: #6c757d;
+}
+
+.navbar-custom {
+    background-color: #dee2e6;
+  }
+
+  .conf{
+    background-color: #adb5bd;
+  }

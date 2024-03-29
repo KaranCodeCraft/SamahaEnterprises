@@ -4,18 +4,6 @@ export default function ContactUs() {
   return (
     <>
       <div className="container inline-block">
-        <div className="container" >
-          <div className="jumbotron">
-            <h1 className="display-4">Connect to Us!!</h1>
-            <p className="lead">
-              We here at Savi Vision working in audio-video industry since 37 years. <br/>By connected with us you get the best solution ever
-            </p>
-            <hr className="my-4"/>
-            <p>
-              For Contact please email us at <u>info@savivision.com </u>  <br/> or connect us on mobile via <u>9810166450</u>
-            </p>
-          </div>
-        </div>
         <form className="my-4 mx-2">
           <div className="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -57,6 +45,18 @@ export default function ContactUs() {
           <button className="btn btn-success">Submit</button>
           </div>
         </form>
+        <div className="container" >
+          <div className="jumbotron">
+            <h1 className="display-4">Connect to Us!!</h1>
+            <p className="lead">
+              We here at advertise24 working in audio-video industry since 37 years. <br/>By connected with us you get the best solution ever
+            </p>
+            <hr className="my-4"/>
+            <p>
+              For Contact please email us at <u>info@advertise24.in </u>  <br/> or connect us on mobile via <u>987287923</u>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );

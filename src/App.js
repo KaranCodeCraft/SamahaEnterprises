@@ -12,7 +12,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div className="content border border-dark">
+        <div className="content">
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>

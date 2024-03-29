@@ -6,14 +6,14 @@ import {Link} from "react-router-dom"
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light navbar-custom">
         <Link className="navbar-brand" to="/">
           <img
             src={logo}
-            width="60"
+            width="80"
             height="40"
             class="d-inline-block align-top"
-            alt="Savi Vision"
+            alt="advertise24"
           />
         </Link>
         <button
