@@ -16,7 +16,7 @@ export default function About() {
           <div className="col-12 col-xl-11">
             <h2 className="h1 mb-3">Who Are We?</h2>
             <p className="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
-            <p className="mb-5">Nullam gravida orci ac luctus molestie. Fusce finibus congue erat, non aliquam magna tincidunt at. Aenean lacinia arcu ex, sed pharetra nibh porta a. Curabitur vel consequat nibh, ac interdum nisl. Nunc pulvinar nec massa vitae sollicitudin.</p>
+            <p className="mb-5">Driven by a relentless pursuit of excellence, we harness creativity and expertise to shape remarkable brands and elevate industry standards, leaving an indelible mark on the landscape of innovation and customer delight.</p>
             <div className="row gy-4 gy-md-0 gx-xxl-5X">
               <div className="col-12 col-md-6">
                 <div className="d-flex">
@@ -26,8 +26,8 @@ export default function About() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="mb-3">Versatile Brand</h4>
-                    <p className="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                    <h4 className="mb-3">Brand Building Expertise</h4>
+                    <p className="text-secondary mb-0">Crafting iconic brands through strategic vision and creative excellence.</p>
                   </div>
                 </div>
               </div>
@@ -39,8 +39,8 @@ export default function About() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="mb-3">Digital Agency</h4>
-                    <p className="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                    <h4 className="mb-3">Superior Product Development Services</h4>
+                    <p className="text-secondary mb-0">Elevating products with innovation, quality, and customer-centric solutions.</p>
                   </div>
                 </div>
               </div>

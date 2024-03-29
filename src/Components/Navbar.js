@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/SAVI lOGO.png"
+import logo from "../assets/logo.png"
 
 import {Link} from "react-router-dom"
 
@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link className="navbar-brand" to="/">
           <img
             src={logo}
-            width="80"
+            width="60"
             height="40"
             class="d-inline-block align-top"
             alt="advertise24"

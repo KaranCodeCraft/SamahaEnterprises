@@ -26,10 +26,9 @@ export default function ContactUs() {
           <div className="form-group">
             <label for="exampleFormControlSelect1">Select Solution</label>
             <select className="form-control" id="exampleFormControlSelect1">
-              <option>Audio Solution</option>
-              <option>Video Solution</option>
-              <option>CCTV Solution</option>
-              <option>Automation Solution</option>
+              <option>Event Management</option>
+              <option>Civil Work</option>
+              <option>Construction Work</option>
               <option>Other</option>
             </select>
           </div>
@@ -49,11 +48,11 @@ export default function ContactUs() {
           <div className="jumbotron">
             <h1 className="display-4">Connect to Us!!</h1>
             <p className="lead">
-              We here at advertise24 working in audio-video industry since 37 years. <br/>By connected with us you get the best solution ever
+              We here at Samaha Enterpises working in Civil Work industry since 15 years. <br/>By connected with us you get the best solution ever
             </p>
             <hr className="my-4"/>
             <p>
-              For Contact please email us at <u>info@advertise24.in </u>  <br/> or connect us on mobile via <u>987287923</u>
+              For Contact please email us at <u>suleman935544@gmail.com</u>  <br/> or connect us on mobile via <u>+91 93556 63345</u>
             </p>
           </div>
         </div>
