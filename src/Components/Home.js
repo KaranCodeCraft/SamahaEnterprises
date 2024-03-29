@@ -76,6 +76,8 @@ export default function Home() {
           </Link>
         </p>
       </div>
+{/* service section starts */}
+
       <div className="container border border-dark my-4">
         <h2 className="text-center">Our Services</h2>
         <p className="text-center">Building dreams, one brick at a time.</p>
@@ -84,20 +86,88 @@ export default function Home() {
             <div className="card mx-4" style={{ width: "18rem" }}>
               <img className="card-img-top" src={img1} alt="Card cap" />
               <div className="card-body">
-                <h5 className="card-title text-center">Innovative Architectural</h5>
+                <h5 className="card-title text-center">
+                  Innovative Architectural
+                </h5>
               </div>
             </div>
             <div className="card mx-4" style={{ width: "18rem" }}>
               <img className="card-img-top" src={img2} alt="Card cap" />
               <div className="card-body">
-                <h5 className="card-title text-center">Streamlined Construction</h5>
+                <h5 className="card-title text-center">
+                  Streamlined Construction
+                </h5>
               </div>
             </div>
             <div className="card mx-4" style={{ width: "18rem" }}>
               <img className="card-img-top" src={img3} alt="Card cap" />
               <div className="card-body">
-                <h5 className="card-title text-center">Transformative Renovation</h5>
+                <h5 className="card-title text-center">
+                  Transformative Renovation
+                </h5>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container text-center">
+        <span className="bg-light rounded px-3 py-1 text-sm border border-dark">
+          Testimonials
+        </span>
+        <h1 className="my-2">Customers Love Our Platform</h1>
+        <p>
+          Don't take our word for it. Here's what our customers have to say
+          about their experience with our platform.
+        </p>
+
+        {/* testimontial content starts */}
+        <div className="d-flex border border-dark justify-content-center">
+          <div className="card m-4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p className="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="/" className="card-link">
+                Card link
+              </a>
+              <a href="/" className="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
+          <div className="card m-4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p className="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="/" className="card-link">
+                Card link
+              </a>
+              <a href="/" className="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
+          <div className="card m-4" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p className="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="/" className="card-link">
+                Card link
+              </a>
+              <a href="/" className="card-link">
+                Another link
+              </a>
             </div>
           </div>
         </div>
