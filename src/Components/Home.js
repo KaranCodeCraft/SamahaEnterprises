@@ -23,13 +23,13 @@ export default function Home() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={img1} alt="First slide" style={{height: "25rem"}} />
+            <img className="d-block w-100" src={img1} alt="First slide" style={{height: "30rem"}} />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={img2} alt="Second slide" style={{height: "25rem"}} />
+            <img className="d-block w-100" src={img2} alt="Second slide" style={{height: "30rem"}} />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={img3} alt="Third slide" style={{height: "25rem"}}/>
+            <img className="d-block w-100" src={img3} alt="Third slide" style={{height: "30rem"}}/>
           </div>
         </div>
         <a
